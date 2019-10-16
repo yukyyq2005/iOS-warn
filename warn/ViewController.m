@@ -32,8 +32,8 @@
             
             NSMutableArray *array = [NSMutableArray array];
             // 每个月5号的早上7:30分 每个月5号的早上7:40分 每个月5号的早上7:50分
-            // 每个月15号的早上7:30分 每个月5号的早上7:40分 每个月5号的早上7:50分
-            // 每个月25号的早上7:30分 每个月5号的早上7:40分 每个月5号的早上7:50分
+            // 每个月15号的早上7:30分 每个月15号的早上7:40分 每个月15号的早上7:50分
+            // 每个月25号的早上7:30分 每个月25号的早上7:40分 每个月25号的早上7:50分
             
             UNNotificationRequest *notificationRequest1 = [self addNti:5 hour:7 min:30 tag:1];
             UNNotificationRequest *notificationRequest2 = [self addNti:5 hour:7 min:40 tag:2];

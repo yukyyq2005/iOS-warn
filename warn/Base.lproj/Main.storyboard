@@ -38,14 +38,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="St2-fu-ELh">
+                                <rect key="frame" x="16" y="244" width="343" height="288"/>
+                                <string key="text">提醒时间：
+每个月5号的早上7:30分  每个月5号的早上7:40分 每个月5号的早上7:50分
+ 
+每个月15号的早上7:30分 每个月15号的早上7:40分 每个月15号的早上7:50分
+
+每个月25号的早上7:30分 每个月25号的早上7:40分 每个月25号的早上7:50分
+
+使用方法：打开软件以后，如果有提示“成功启用推送”以后就推出软件，（支持关机以后开机的提醒）。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="taB-hZ-5z0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="7IV-wS-BTp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="St2-fu-ELh" secondAttribute="trailing" constant="16" id="CUx-ag-b33"/>
                             <constraint firstItem="taB-hZ-5z0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="JNE-CY-a2a"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="taB-hZ-5z0" secondAttribute="trailing" constant="106" id="TZN-0W-KP1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ggg-Tm-xLv" secondAttribute="bottom" constant="59" id="YMJ-QU-F0D"/>
+                            <constraint firstItem="St2-fu-ELh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YNy-kB-3Jf"/>
+                            <constraint firstItem="Ggg-Tm-xLv" firstAttribute="top" secondItem="St2-fu-ELh" secondAttribute="bottom" constant="54" id="bk7-mW-3rP"/>
                             <constraint firstItem="Ggg-Tm-xLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dTY-c4-Bos"/>
+                            <constraint firstItem="St2-fu-ELh" firstAttribute="top" secondItem="taB-hZ-5z0" secondAttribute="bottom" constant="18" id="kX8-9o-vP2"/>
                             <constraint firstItem="Ggg-Tm-xLv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yF5-LR-z2v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -53,6 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="25.637181409295355"/>
         </scene>
     </scenes>
 </document>
